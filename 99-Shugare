@@ -1,0 +1,224 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Ps99", "DarkTheme")
+
+
+local Tab = Window:NewTab("Buy")
+
+
+local Section = Tab:NewSection("RQ - FirstPotionMachine to LastEnchantMachine") 
+
+Section:NewButton("ButtonText", "ButtonInfo", function()
+local args = {
+    [1] = "PotionVendingMachine1",
+    [2] = 1
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("VendingMachines_Purchase"):InvokeServer(unpack(args))
+
+wait()
+
+local args = {
+    [1] = "PotionVendingMachine1",
+    [2] = 1
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("VendingMachines_Purchase"):InvokeServer(unpack(args))
+
+wait()
+
+local args = {
+    [1] = "PotionVendingMachine1",
+    [2] = 1
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("VendingMachines_Purchase"):InvokeServer(unpack(args))
+
+wait()
+
+local args = {
+    [1] = "PotionVendingMachine1",
+    [2] = 1
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("VendingMachines_Purchase"):InvokeServer(unpack(args))
+
+wait()
+
+local args = {
+    [1] = "EnchantVendingMachine1",
+    [2] = 1
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("VendingMachines_Purchase"):InvokeServer(unpack(args))
+
+wait()
+
+local args = {
+    [1] = "EnchantVendingMachine1",
+    [2] = 1
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("VendingMachines_Purchase"):InvokeServer(unpack(args))
+
+wait()
+
+local args = {
+    [1] = "EnchantVendingMachine1",
+    [2] = 1
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("VendingMachines_Purchase"):InvokeServer(unpack(args))
+
+wait()
+
+local args = {
+    [1] = "EnchantVendingMachine1",
+    [2] = 1
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("VendingMachines_Purchase"):InvokeServer(unpack(args))
+
+wait()
+
+local args = {
+    [1] = "FruitVendingMachine1",
+    [2] = 1
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("VendingMachines_Purchase"):InvokeServer(unpack(args))
+
+wait()
+
+local args = {
+    [1] = "FruitVendingMachine1",
+    [2] = 1
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("VendingMachines_Purchase"):InvokeServer(unpack(args))
+
+wait()
+
+local args = {
+    [1] = "FruitVendingMachine1",
+    [2] = 1
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("VendingMachines_Purchase"):InvokeServer(unpack(args))
+
+wait()
+
+local args = {
+    [1] = "FruitVendingMachine1",
+    [2] = 1
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("VendingMachines_Purchase"):InvokeServer(unpack(args))
+
+wait()
+
+local args = {
+    [1] = "FruitVendingMachine2",
+    [2] = 1
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("VendingMachines_Purchase"):InvokeServer(unpack(args))
+
+wait()
+
+local args = {
+    [1] = "FruitVendingMachine2",
+    [2] = 1
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("VendingMachines_Purchase"):InvokeServer(unpack(args))
+
+wait()
+
+local args = {
+    [1] = "FruitVendingMachine2",
+    [2] = 1
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("VendingMachines_Purchase"):InvokeServer(unpack(args))
+
+wait()
+
+local args = {
+    [1] = "FruitVendingMachine2",
+    [2] = 1
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("VendingMachines_Purchase"):InvokeServer(unpack(args))
+
+wait()
+
+local args = {
+    [1] = "PotionVendingMachine2",
+    [2] = 1
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("VendingMachines_Purchase"):InvokeServer(unpack(args))
+
+wait()
+
+local args = {
+    [1] = "PotionVendingMachine2",
+    [2] = 1
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("VendingMachines_Purchase"):InvokeServer(unpack(args))
+
+wait()
+
+local args = {
+    [1] = "PotionVendingMachine2",
+    [2] = 1
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("VendingMachines_Purchase"):InvokeServer(unpack(args))
+
+wait()
+
+local args = {
+    [1] = "PotionVendingMachine2",
+    [2] = 1
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("VendingMachines_Purchase"):InvokeServer(unpack(args))
+
+wait()
+
+local args = {
+    [1] = "EnchantVendingMachine2",
+    [2] = 1
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("VendingMachines_Purchase"):InvokeServer(unpack(args))
+
+wait()
+
+local args = {
+    [1] = "EnchantVendingMachine2",
+    [2] = 1
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("VendingMachines_Purchase"):InvokeServer(unpack(args))
+
+wait()
+
+local args = {
+    [1] = "EnchantVendingMachine2",
+    [2] = 1
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("VendingMachines_Purchase"):InvokeServer(unpack(args))
+
+wait()
+
+local args = {
+    [1] = "EnchantVendingMachine2",
+    [2] = 1
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("VendingMachines_Purchase"):InvokeServer(unpack(args))
+end)
